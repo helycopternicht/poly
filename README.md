@@ -3,6 +3,7 @@ An application takes two parameters: query string and json array of objects as s
 For simplicity we imply that only valid field names are passed to query string.
 
 Sample query string:
+
 * foo=someStringValue // in case of string value use contains logic
 * foo=12
 * foo>12
