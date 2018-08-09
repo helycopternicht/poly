@@ -22,3 +22,7 @@ How to run jumpstart project:
 ./gradlew fatJar
 java -jar build/libs/poly-test-task-all-1.0-SNAPSHOT.jar "name=Bob" '[{"name":"Bobby","age":25},{"name":"Rob","age":35}]'
 ```
+
+### Third party libraries
+
+Only json (gson or whatever you like) parsing library is allowed for production code. Also you can use any libraries for testing - it's up to you.
