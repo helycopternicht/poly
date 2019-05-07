@@ -26,3 +26,7 @@ java -jar build/libs/poly-test-task-all-1.0-SNAPSHOT.jar "name=Bob" '[{"name":"B
 ### Third party libraries
 
 Only json (gson or whatever you like) parsing library is allowed for production code. Also you can use any libraries for testing - it's up to you.
+
+### Non java implementation
+
+If you use other than Java platform it would be good to deliver you solution as docker composable image.
